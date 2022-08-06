@@ -1,0 +1,26 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Handle client Request to Server Using Socket.io",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/index.js"
+  },
+  "keywords": [
+    "Node",
+    "Typescript",
+    "Socket.io"
+  ],
+  "author": "Nikhil Yedapally",
+  "license": "ISC"
+}
